@@ -1,0 +1,14 @@
+.employee-task-conteiner {
+  .task-list {
+    max-height: 150px;
+    min-height: 120px;
+    overflow-y: auto;
+    overflow-x: none;
+    border: 2px solid black;
+    padding: 6px;
+    margin-bottom: 30px;
+  }
+  .task-header {
+    margin-bottom: 6px;
+  }
+}

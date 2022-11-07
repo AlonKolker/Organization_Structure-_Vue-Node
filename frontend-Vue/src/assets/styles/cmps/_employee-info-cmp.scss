@@ -1,0 +1,76 @@
+.employee-info-cmp-conteiner {
+  display: grid;
+  // grid-template-columns: 2fr repeat(4, 1.6fr);
+  grid-template-columns: 2fr 1fr 1fr 1.6fr 1.6fr;
+  // grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 0.6fr 0.6fr 0.5fr 0.6fr;
+
+  grid-column-gap: 16px;
+  grid-row-gap: 0px;
+  align-items: center;
+  margin-bottom: 30px;
+  img {
+    grid-area: 1/1/5/1;
+    // height: 100%;
+  }
+  .line {
+    border-bottom: 1px solid black;
+    grid-area: 3/2/3/6;
+  }
+  .employee-title {
+    grid-area: 1/2/1/2;
+  }
+  .employee-name {
+    grid-area: 1/3/1/3;
+  }
+  .position-title {
+    grid-area: 2/2/2/2;
+  }
+  .position-definition {
+    grid-area: 2/3/2/3;
+  }
+  .employee-info-cmp-position {
+    // margin-bottom: 6px;
+    grid-area: 2/2/2/2;
+  }
+
+  .manager-title {
+    grid-area: 4/2/4/2;
+  }
+  .manager-name {
+    grid-area: 4/3/4/3;
+  }
+
+  .report-btn-conteiner {
+    grid-area: 4/4/4/4;
+    display: flex;
+    justify-content: flex-end;
+    .report-btn {
+      height: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      background-color: rgb(86, 86, 214);
+      width: 60px;
+      cursor: pointer;
+      &:hover {
+        background-color: yellowgreen;
+      }
+    }
+  }
+  .report-list-modal-btn {
+    width: 100%;
+    .report-list-modal-btn {
+      background-color: rgb(86, 86, 214);
+      font-size: 14px;
+      height: 30px;
+      width: fit-content;
+      padding: 3px;
+      float: right;
+      font-weight: 600;
+      cursor: pointer;
+      &:hover {
+        background-color: yellowgreen;
+      }
+    }
+  }
+}

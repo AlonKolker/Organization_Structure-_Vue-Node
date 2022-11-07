@@ -1,0 +1,32 @@
+.employee-preview-conteiner {
+  display: grid;
+  grid-template-columns: 1.6fr 1.6fr 1.6fr 1.6fr;
+  grid-template-rows: 0.8fr;
+  margin: 16px;
+
+  .text {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .employee-position {
+    display: flex;
+    justify-content: center;
+  }
+  .view-employee-btn-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .view-employee-btn {
+      width: 140px;
+      height: 35px;
+      background-color: rgb(86, 86, 214);
+      font-weight: 700;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      &:hover{
+        background-color: lightgray;
+      }
+    }
+  }
+}

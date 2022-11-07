@@ -1,0 +1,34 @@
+.report-list-conteiner {
+  margin: 0 auto;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  min-height: 200px;
+  max-height: 70vh;
+  height: auto;
+  padding: 10px;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: rgb(186, 193, 193);
+  .close-report-modal-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .close-report-modal-btn {
+      margin: 10px;
+      width: 70px;
+      font-weight: 700;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 3px;
+
+      &:hover {
+        background-color: yellowgreen;
+      }
+    }
+  }
+}

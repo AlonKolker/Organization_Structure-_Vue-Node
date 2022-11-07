@@ -1,0 +1,30 @@
+.employee-report-preview {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 0px;
+  overflow-y: auto;
+  padding: 6px;
+
+  .subordinate-name {
+    grid-area: 1/1/1/1;
+  }
+  .subordinate-position {
+    grid-area: 1/2/1/2;
+  }
+  .assign-task-btn {
+    background-color: rgb(86, 86, 214);
+    border: none;
+    font-size: 14px;
+    padding: 0 0.3rem 0 0.3rem;
+    padding: 3px;
+    height: fit-content;
+    font-weight: 600;
+
+    cursor: pointer;
+    &:hover {
+      background-color: yellowgreen;
+    }
+  }
+}

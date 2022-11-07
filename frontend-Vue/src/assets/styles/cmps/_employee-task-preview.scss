@@ -1,0 +1,14 @@
+.employee-task-preview-conteiner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 0px;
+
+  .task-text {
+    grid-area: 1/1/1/1;
+  }
+  .task-due-date {
+    grid-area: 1/2/1/2;
+  }
+}

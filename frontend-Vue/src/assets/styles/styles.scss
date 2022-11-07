@@ -1,0 +1,36 @@
+// SETUP
+@import "setup/typography";
+@import "setup/functions";
+@import "setup/variables";
+
+// BASE
+@import "basic/base";
+@import "basic/helpers";
+@import "basic/layout";
+
+//Views
+@import "views/_app";
+@import "views/employee";
+@import "views/_employee-info";
+
+
+// Components
+@import "cmps/filter";
+@import "cmps/employee-info-cmp";
+@import "cmps/employee-task-preview";
+@import "cmps/employee-task-list";
+@import "cmps/manager-subordinates-preview";
+@import "cmps/manager-subordinates-list";
+@import "cmps/new-report-modal";
+@import "cmps/new-task-modal";
+@import "cmps/employee-list";
+@import "cmps/employee-preview";
+@import "cmps/report-list-modal";
+@import "cmps/report-preview";
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+.manager-subordinates-list {
+  flex-grow: 1;
+  .manager-subordinates-list-conteiner {
+    max-height: 140px;
+    min-height: 150px;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 6px;
+  }
+}

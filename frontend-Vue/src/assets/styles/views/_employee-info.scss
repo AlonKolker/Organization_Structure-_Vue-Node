@@ -1,0 +1,17 @@
+.employee-info-conteiner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .go-back-btn {
+    margin-top: 3px;
+    align-self: flex-end;
+    border-radius: 6px;
+    padding: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    &:hover {
+      background-color: gray;
+      cursor: pointer;
+    }
+  }
+}

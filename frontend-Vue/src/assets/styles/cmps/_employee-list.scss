@@ -1,0 +1,12 @@
+.employee-list-conteiner {
+  width: 90vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 30px 10px 30px;
+  .employee-list-header {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 50px 0px;
+    text-decoration: underline;
+  }
+}
